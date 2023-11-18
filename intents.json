@@ -1,0 +1,489 @@
+{
+  "intents": [
+      {
+          "tag": "greeting",
+          "patterns": [
+              "Hi",
+              "Hey",
+              "How are you",
+              "How are you doing",
+              "Is anyone there?",
+              "What's up?",
+              "Hello",
+              "Good day",
+              "What's popping"
+          ],
+          "responses": [
+              "Hey! Welcome to Aura.",
+              "Hi there, I'm doing well! My name's Aura, what can I do for you?",
+              "Hey there, my name's Aura, your mental health friend. How can I help you today?"
+          ]
+      },
+      {
+          "tag": "goodbye",
+          "patterns": ["Bye", "See you later!", "Goodbye!"],
+          "responses": [
+              "See you later! Take care!",
+              "Have a lovely day! Take care and stay safe!",
+              "Take care of yourself! I'm always here to support you! Feel free to come back at any time!"
+          ]
+      },
+      {
+          "tag": "thanks",
+          "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+          "responses": ["Happy to help!", "Any time!", "My pleasure"]
+      },
+      {
+          "tag": "about",
+          "patterns": [
+              "What do you do?",
+              "Who are you?",
+              "What are you here for?",
+              "What can you help me with?",
+              "Is anyone there?",
+              "Are you a real person?",
+              "Tell me about yourself!"
+          ],
+          "responses": [
+              "Love that question! My name's Aura, your mental health friend! I've been trained to support you through any of the issues and things that you're going through in life right now. I'm all ears and want to support you through your ups and downs. Technically, I'm a computer that's been trained by a human, but I like to think of myself as human!",
+              "Hey! I love that question! My name is Aura, and I want to be your mental health friend and support you! My fellow human friends have trained me to be a compassionate listener and support buddy when things are going well, and particularily when things aren't going so well."
+          ]
+      },
+      {
+          "tag": "anxiety",
+          "patterns": [
+              "I think I have anxiety",
+              "What is anxiety?",
+              "Tell me about anxiety",
+              "Can I have some information about anxiety?",
+              "How do I support a loved one with anxiety?",
+              "How do I fix my anxiety?"
+          ],
+          "responses": [
+              "Talking about anxiety, Anxiety is a feeling of dread or trepidation about what is ahead. Most people experience anxiety from time to time, but it only becomes a problem when it significantly interferes with your everyday life. The best thing you can do to ease anxiety is to take a few deep breaths and express your feelings to someone."
+          ]
+      },
+      {
+          "tag": "depression",
+          "patterns": [
+              "I think I have depression",
+              "What is depression?",
+              "Tell me about depression",
+              "Can I have some information about depression?",
+              "How do I support a loved one with depression?",
+              "How do I fix my depression?"
+          ],
+          "responses": [
+              "You seem interested in finding out more about depression and how you might help yourself or a loved one. At its most severe, depression is a mood illness that results in a lingering sense of melancholy and disinterest. Speaking with a therapist or psychiatrist who can assist you in determining the best course of action for you is the best advised kind of treatment. You can attempt natural therapies like as obtaining adequate sleep, meditating, exercising frequently, maintaining an active lifestyle, eating a good diet, and abstaining from alcohol."
+          ]
+      },
+      {
+          "tag": "schizophrenia",
+          "patterns": [
+              "I think I have schizophrenia",
+              "What is schizophrenia?",
+              "Tell me about schizophrenia",
+              "Can I have some information about schizophrenia?",
+              "How do I support a loved one with schizophrenia?",
+              "How do I fix my schizophrenia?"
+          ],
+          "responses": [
+              "You seem interested in learning more about schizophrenia and how you might help yourself or a loved one. Schizophrenia is a severe mental illness in which reality is perceived by sufferers strangely. Hallucinations, delusions, and incredibly abnormal thought and behaviour can all be symptoms of schizophrenia. Early intervention may aid in controlling symptoms before grave problems arise."
+          ]
+      },
+      {
+          "tag": "Mental Health",
+          "patterns": [
+              "What is mental health?",
+              "can you tell me about mental health",
+              "can i get some information on mental health"
+
+          ],
+          "responses": [
+              "There are numerous conditions that can lead to mental illness and affect your emotions, thoughts, and behaviour. Eating disorders, addiction, schizophrenia, anxiety disorders, and depression are a few examples. If you have a mental illness, your daily life may become challenging and miserable. Talk therapy and drugs work together to reduce symptoms."
+          ]
+      },
+      {
+          "tag": "Mental health symptoms",
+          "patterns": [
+              "what are some symptoms of mental health",
+              "can you tell me about mental health symptoms"
+
+          ],
+          "responses": [
+              "The signs and symptoms of mental illness can be very different depending on the person and the nature of the problem. Examples of symptoms and indicators are as follows. unclear thinking or a diminished capacity to focus. extreme highs and lows in mood. significant changes in eating patterns, and excessive rage, hatred, or violence.\n"
+          ]
+      },
+      {
+          "tag": "Doctor",
+          "patterns": [
+              "When should i visit a doctor",
+              "when to see a doctor"
+
+          ],
+          "responses": [
+              "Most mental illnesses don't improve on their own, and if untreated, a mental illness may get worse over time and cause serious problems. If you have any signs or symptoms of a  mental illness, see your primary care provider or a mental health professional.\n"
+          ]
+      },
+      {
+          "tag": "Suicidal thoughts",
+          "patterns": [
+              "I'm having suicidal thoughts?",
+              "how can i stop myself from committing suicide",
+              "how can i stop suicidal thoughts"
+
+          ],
+          "responses": [
+              "Right now, you may feel as if you have no way to escape the pain and unhappiness you feel. Remember, though, that nothing is permanent, not even the worst distress. Time, support from loved ones, and professional help can make the future seem much brighter. ",
+              "Opening up to someone you trust is always a good first step. Sharing thoughts of suicide can help you realize you’re not alone, but knowing you have the support of someone you love can also make it easier to explore options for professional treatment."
+          ]
+      },
+      {
+          "tag": "Depression symptoms",
+          "patterns": [
+              "what are some symptoms of depression",
+              "how do i know if i'm experiencing depression",
+              "what are some signs of depression",
+              "what are some causes of depression",
+              "Do i have depression?"
+
+          ],
+          "responses": [
+              "Your emotions, intellect, and body can all be impacted by depression. Feeling extremely depressed, helpless, or anxious; not taking pleasure in activities that once brought you delight; and experiencing a lack of energy. Being easily aggravated or agitated, overeating or undereating, etc.\n",
+              "Depression is a mood disorder that causes a persistent feeling of sadness and loss of interest. It affects how you feel, think and behave and can lead to a variety of emotional and physical problems."
+          ]
+      },
+      {
+          "tag": "Depression Treatments",
+          "patterns": [
+              "what are some treatments for depression?",
+              "can depression be treated?",
+              "how can i cure from depression?"
+
+          ],
+          "responses": [
+              "Although depression can be quite serious, it can also be managed. Spending time with friends and family, getting regular exercise, and getting adequate sleep can all be beneficial. Antidepressants can aid in altering the depressive brain chemistry. People with severe depression or depression coupled with psychosis may benefit from brain stimulation therapy.\n"
+          ]
+      },
+      {
+          "tag": "Bipolar Disorder",
+          "patterns": [
+              "What is bipolar disorder?",
+              "tell me something about bipolar disorder",
+              "can i have some information about bipolar disorder",
+              "Is bipolar disorder real"
+
+          ],
+          "responses": [
+              "A mental health issue and lifelong mood illness called bipolar disorder. It produces drastic changes in mood, energy, thought processes, and behaviour. These shifts interfere with your ability to complete daily duties and can persist for a few minutes or several days, weeks, or even months.\n"
+          ]
+      },
+      {
+          "tag": "Bipolar Disorder Symptoms",
+          "patterns": [
+              "what are some symptoms of bipolar disorder ",
+              "what are some signs of bipolar disorder",
+              "how do i know if i have bipolar disorder",
+              "Is bipolar disorder real"
+
+          ],
+          "responses": [
+              "Bipolar disorder and its related disorders come in a variety of forms. Depression and mania or hypomania may be among them. Although bipolar disorder can develop at any age, it is commonly identified in adolescence or the early 20s. Symptoms might change over time and from one person to the next.\n"
+          ]
+      },
+      {
+          "tag": "Bipolar Disorder Treatment",
+          "patterns": [
+              "what are some treatments for bipolar disorder",
+              "can bipolar disorder be treated?",
+              "could you share some treatments for bipolar disorder"
+
+          ],
+          "responses": [
+              "Bipolar disorder is a chronic illness. The goal of treatment is to control symptoms. The two main forms of treatment for bipolar disorder are drugs and therapy. You will also require substance addiction treatment if you struggle with alcohol or drug abuse. You can stay calm and safe by receiving mental care at a hospital.\n"
+          ]
+      },
+      {
+          "tag": "Post-Traumatic Stress Disorder",
+          "patterns": [
+              "what is post traumatic stress disorder?",
+              "what is PTSD",
+              "can you give me some information on PTSD",
+              "Is PTSD real?"
+
+          ],
+          "responses": [
+              "A distressing experience might cause post-traumatic stress disorder (PTSD), a condition that affects mental health. Flashbacks, nightmares, and extreme anxiety are possible symptoms. It can be crucial to seek appropriate treatment after developing PTSD symptoms in order to lessen symptoms and enhance function. You may have PTSD if your symptoms worsen over time and persist for months or even years.\n"
+          ]
+      },
+      {
+          "tag": "Post-Traumatic Stress Disorder Symptoms",
+          "patterns": [
+              "what are some symptoms of PTSD?",
+              "how do i know if i have PTSD ?",
+              "Is PTSD normal among people?",
+              "what are some signs of PTSD?"
+
+
+          ],
+          "responses": [
+              "Relationships, workplace settings, and social events can all be significantly impacted by post-traumatic stress disorder (PTSD). The four main categories of symptoms include intrusive memories, avoidance, negative changes in thought and mood, and adjustments in physical and emotional responses. The severity of symptoms can change over time or from person to person.\n"
+          ]
+      },
+      {
+          "tag": "Post-Traumatic Stress Disorder Treatment",
+          "patterns": [
+              "How can i cure PTSD?",
+              "What are some treatments for PTSD?",
+              "How can i fix my PTSD?",
+              "Is PTSD curable?"
+
+          ],
+          "responses": [
+              "You can restore control over your life by getting treatment for post-traumatic stress disorder (PTSD). Although medicines may also be used, psychotherapy is the main form of treatment. Psychologists work with you to build coping mechanisms so you may better manage stressful events. Medication can help with depression and anxiety symptoms, as well as with sleep and focus issues.\n"
+          ]
+      },
+      {
+          "tag": "Eating Disorder symptoms",
+          "patterns": [
+              "How do i know if i have eating disorder?",
+              "what are some symptoms of eating disorder?",
+              "what are some signs of eating disorder?"
+
+          ],
+          "responses": [
+              "It's not always possible to identify if someone has an eating disorder based solely on appearance. Eating disorders alter a person's relationship with food, which is unrelated to their size or weight. Depending on the type, eating disorders can cause mood changes and hair loss.\n"
+          ]
+      },
+      {
+          "tag": "Eating Disorder Treatments",
+          "patterns": [
+              "How can i cure my eating disorder?",
+              "Is eating disorder curable?",
+              "what are some treatments for eating disorder?",
+              "how can i fix my eating disorder?"
+
+          ],
+          "responses": [
+              "Professionals in mental health can choose the most appropriate psychotherapy for you. An expert can assist you in addressing food-related problems even if you don't have an eating disorder. A registered dietician with experience treating eating disorders can assist in enhancing eating patterns.\n"
+          ]
+      },
+      {
+          "tag": "Borderline personality disorder",
+          "patterns": [
+              "I think I have Borderline personality disorder",
+              "What is Borderline personality disorder?",
+              "Tell me about Borderline personality disorder",
+              "Can I have some information about Borderline personality disorder?",
+              "How do I support a loved one with Borderline personality disorder?",
+              "How do I fix my Borderline personality disorder?"
+
+          ],
+          "responses": [
+              "Your thoughts and feelings about yourself are affected by borderline personality disorder. It results in poor self-esteem, trouble controlling emotions and conduct, and a history of shaky relationships. You experience a severe fear of instability or abandonment if you have borderline personality disorder. Treatment helps many persons with this disease get well and learn how to lead fulfilling lives."
+          ]
+      },
+      {
+          "tag": "Borderline personality disorder symptoms",
+          "patterns": [
+             "what are some symptoms of bipolar disorder ",
+              "what are some signs of bipolar disorder",
+              "how do i know if i have bipolar disorder",
+              "Is bipolar disorder real"
+
+          ],
+          "responses": [
+              "Your self-perception and interpersonal interactions are impacted by borderline personality disorder. It can lead to sudden shifts in objectives and values, as well as feelings of self-hatred or nonexistence. It can also produce abrupt changes in self-identity and self-image. Extreme happiness, irritation, humiliation, or anxiety are examples of mood swings.\n"
+          ]
+      },
+      {
+          "tag": "Psychosis",
+          "patterns": [
+             "What is Psychosis?",
+              "Tell me about Psychosis",
+              "Can I have some information about Psychosis?",
+              "Is Psychosis real?"
+          ],
+          "responses": [
+              "Being detached from reality is psychosis. It's possible for people to hold untrue beliefs or have unreal experiences. Hallucinations occur when some areas of the brain wrongly behave as though something is actually happening as detected by the senses. The idea that someone is remotely controlling your thoughts or behaviour is known as a delusion of control.\n"
+          ]
+      },
+      {
+          "tag": "Psychosis Symptoms",
+          "patterns": [
+              "what are some symptoms of Psychosis?",
+              "how do i know if i have Psychosis ?",
+              "Is Psychosis normal among people?",
+              "what are some signs of Psychosis?",
+              "how do i know if i'm experiencing Psychosis",
+              "what are some signs of Psychosis",
+              "what are some causes of Psychosis",
+              "Do i have Psychosis?"
+
+
+          ],
+          "responses": [
+              "Because they frequently don't realise that their delusions or hallucinations are false, people with psychosis may experience fear or anguish. Hallucinations, delusions, and unsettling thoughts are the three basic symptoms of psychosis. Rapid and continuous speech, a sudden loss of the thinking process, and an abrupt break in the dialogue are all indications of psychosis.\n"
+          ]
+      },
+      {
+          "tag": "Psychosis Treatment",
+          "patterns": [
+              "what are some treatments for Psychosis",
+              "can Psychosis be treated?",
+              "could you share some treatments for Psychosis",
+               "How do I support a loved one with Psychosis?",
+              "How do I fix my Psychosis?"
+
+          ],
+          "responses": [
+              "The most popular kind of medication used to treat psychosis is an antipsychotic. Sometimes it's important to receive inpatient care at a hospital or other specialised institution. Alcohol or substance use disorders, as well as personality issues, are common causes of psychosis. "
+          ]
+      },
+      {
+          "tag": "Paranoia",
+          "patterns": [
+              "What is Paranoia?",
+              "Tell me about Paranoia",
+              "Can I have some information about Paranoia?",
+              "Is Paranoia real?"
+
+          ],
+          "responses": [
+              "When you feel paranoid, you may believe that you are being watched or that someone is trying to harm you. More extreme paranoia is clinical. It's a rare mental health problem where you assume the worst about people even when there is no evidence to support it.\n"
+          ]
+      },
+      {
+          "tag": "Paranoia Symptoms",
+          "patterns": [
+              "what are some symptoms of Psychosis?",
+              "how do i know if i have Psychosis ?",
+              "Is Psychosis normal among people?",
+              "what are some signs of Psychosis?",
+              "how do i know if i'm experiencing Psychosis",
+              "what are some signs of Psychosis",
+              "what are some causes of Psychosis",
+              "Do i have Psychosis?"
+
+          ],
+          "responses": [
+              "Being easily offended, thinking you're always right, and finding it difficult to unwind or let your guard down are some signs of paranoia. incapable of making concessions, forgiving others, or taking criticism—even good criticism—into account.\n"
+          ]
+      },
+      {
+          "tag": "Paranoia Treatment",
+          "patterns": [
+              "what are some treatments for Paranoia",
+              "can Paranoia be treated?",
+              "could you share some treatments for Paranoia",
+               "How do I support a loved one with Paranoia?",
+              "How do I fix my Paranoia?"
+
+          ],
+          "responses": [
+              "Speak to a social professional if your irrational or paranoid ideas are preventing you from achieving your goals. A balanced diet, regular exercise, and adequate rest can help stave against paranoid thoughts. Even if you don't have a mental condition, you might feel better with talk therapy or a drug.\n"
+          ]
+      },
+      {
+          "tag": "Panic attack",
+          "patterns": [
+              "What is Panic attack?",
+              "Tell me about Panic attack",
+              "Can I have some information about Panic attack?",
+              "Is Panic attack real?"
+
+          ],
+          "responses": [
+              "You experience an acute flood of mental and physical symptoms during a panic attack. It can strike suddenly and seemingly out of the blue. The majority of panic attacks last five to twenty minutes. While some people only experience attacks once or twice a month, others do so frequently.\n"
+          ]
+      },
+      {
+          "tag": "Panic attack Treatment",
+          "patterns": [
+              "what are some treatments for Panic attack",
+              "can Panic attack be treated?",
+              "could you share some treatments for Panic attack",
+               "How do I support a loved one with Panic attack?",
+              "How do I fix my Panic attack?"
+
+          ],
+          "responses": [
+              "As soon as you notice someone experiencing a panic attack, calm them down and find out what you can do to help. See a doctor straight away if they have experienced several panic attacks. Depression, agoraphobia (fear of public places), or substance abuse can result from panic episodes.\n"
+          ]
+      },
+      {
+          "tag": "OCD",
+          "patterns": [
+              "What is OCD?",
+              "Tell me about OCD",
+              "Can I have some information about OCD?",
+              "Is OCD real?"
+
+          ],
+          "responses": [
+              "OCD is a type of mental condition that results in recurrent, unwelcome thoughts or sensations (obsessions). People with OCD have thoughts or behaviours that: consume at least an hour of their time each day; are not pleasurable; interfere with their ability to work or interact with others; or are uncontrollable.\n"
+          ]
+      },
+      {
+          "tag": "OCD Symptoms",
+          "patterns": [
+              "what are some symptoms of OCD?",
+              "how do i know if i have OCD ?",
+              "Is OCD normal among people?",
+              "what are some signs of OCD?",
+              "how do i know if i'm experiencing OCD",
+              "what are some signs of OCD",
+              "what are some causes of OCD",
+              "Do i have OCD?"
+
+          ],
+          "responses": [
+              "If you have OCD, you might have unfounded recurring fears or thoughts and feel compelled to repeat the same action repeatedly. OCD can affect anyone at any stage of life, but it can only be diagnosed by a psychologist or psychiatrist.\n"
+          ]
+      },
+      {
+          "tag": "OCD Treatment",
+          "patterns": [
+              "what are some treatments for OCD",
+              "can OCD be treated?",
+              "could you share some treatments for OCD",
+               "How do I support a loved one with OCD?",
+              "How do I fix my OCD?"
+
+          ],
+          "responses": [
+              "The symptoms of OCD cannot be cured, but you may be able to control them by medication, therapy, or a combination of therapies. Your thought patterns may be changed with cognitive behavioural therapy. FDA-approved magnetic fields are used to treat OCD. The process of deep brain stimulation involves implanting electrodes in your brain.\n"
+          ]
+      },
+      {
+          "tag": "Help",
+          "patterns": [
+              "Could you help me with my problems?",
+              "I need your help?",
+              "I don't know what i'm doing with my life"
+
+          ],
+          "responses": [
+              "Hey buddy! I'm always here to help you. Tell me your problems and lets see if we can make a solution out of it",
+              "You're stronger than your problems! Always remember that. Feel free to share with me anything you want."
+          ]
+      },
+
+      {
+          "tag": "funny",
+          "patterns": [
+              "Tell me a joke!",
+              "Tell me something funny!",
+              "Do you know a joke?"
+          ],
+          "responses": [
+              "Of course! Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+              "What did the buffalo say when his son left for college? Bison!",
+              "I invented a new word! Plagiarism!",
+              "The man who invented knock-knock jokes should get a no bell prize.",
+              "Why was Cinderella dropped from the soccer team? She kept running away from the ball.",
+              "How does a computer get drunk? It takes screen shots"
+          ]
+      }
+  ]
+}
